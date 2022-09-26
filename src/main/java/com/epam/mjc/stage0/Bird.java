@@ -2,9 +2,7 @@ package com.epam.mjc.stage0;
 
 public class Bird extends Animal {
 	public Bird(){
-		super(color) = "blue";
-		super(numberOfPaws) = 2;
-		super(hasFur) = false;
+		super("blue", 2, false);
 	}
 	@override
 	public String getDescription(String color, int numberOfPaws, boolean hasFur){
